@@ -25,7 +25,7 @@ void PrintArray(int[] array)
 int[] 1 MultOfPairs(int[] array)
 {
     int length = array.Length;
-    int newLength = length / 2; // если кол-во элементов массива нечётное, элемент из середины не имеет пары, его игнорируем.
+    int newLength = length / 2; // если кол-во элементов массива нечётное, элемент из середины не имеет пары, его игнорируем?
     int[] newArray = new int[newLength]; 
     for (int i = 0; i < newLength; i++)
     {
